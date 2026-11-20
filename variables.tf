@@ -1,12 +1,11 @@
 variable "identifier" {
   type        = string
-  description = "The identifier of the dashboard"
-  default     = null
+  description = "Unique identifier of the dashboard page. Required: Port rejects a page without one."
 }
 
 variable "title" {
   type        = string
-  description = "The  of the dashboard"
+  description = "The title of the dashboard"
   default     = null
 }
 
